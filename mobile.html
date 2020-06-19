@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+	<script src="js/jquery-3.5.1.min.js"></script>
+    <script src = "js/up.js"></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+  <div class="container text-center">
+		<div class="imgblock">
+          <img src = "images/hat.png" class "img-fluid" width = "1000" alt=""/>
+		</div>
+		<div id="menu" class = "btn-group">
+			<button href = "#c1" style="width:333px;height:75px" class = "btn btn-dark btn-lg" type = "button">ЗАЯВКА ПОКУПКИ</button>
+			<button href = "#c2" style="width:334px;height:75px" class = "btn btn-dark btn-lg" type = "button">ЗАЯВКА КОРРЕКЦИИ</button>
+			<button href = "#c3" style="width:333px;height:75px" class = "btn btn-dark btn-lg" type = "button">АДРЕС</button>
+		</div>
+		<div class = "container text-center">
+			<img src="images/3.jpg" width="1000" class = "img-fluid">
+		</div>
+		<div class = "container text-center" >
+			<img src = "images/g.png" width = "1000" class = "img-fluid">
+		</div>
+		<div>
+		</div>
+		<div class = "card">
+			<div id="c1" class = "card-body">
+				<h5 class = "card-title">ЗАЯВКА НА ИЗГОТОВЛЕНИЕ</h5>
+				<form action = "">
+					<div class = "form-group">
+						<label>ПОЛ</label>
+						<select class = "form-control">
+							<option>М</option>
+							<option>Ж</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<label>ВИД ОПРАВЫ</label>
+						<select class = "form-control">
+							<option>aviator</option>
+							<option>cateye</option>
+							<option>butterfly</option>
+							<option>clubmaster</option>
+							<option>wayfarer</option>
+							<option>oversized</option>
+							<option>round</option>
+							<option>oval</option>
+							<option>rectangular</option>
+							<option>square</option>
+							<option>sport</option>
+							<option>shield</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<label>МАТЕРИАЛ</label>
+						<select class = "form-control">
+							<option>металл</option>
+							<option>пластик</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<label>ЦВЕТ</label>
+						<select class = "form-control">
+							<option>белый</option>
+							<option>черный</option>
+							<option>красный</option>
+							<option>зеленый</option>
+							<option>синий</option>
+							<option>желтый</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<label>РАЗМЕР</label>
+						<select class = "form-control">
+							<option>XS</option>
+							<option>S</option>
+							<option>M</option>
+							<option>L</option>
+							<option>XL</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<label>ЛИНЗЫ</label>
+						<select class = "form-control">
+							<option>-1.5</option>
+							<option>-1.6</option>
+							<option>-1.67</option>
+							<option>-1.74</option>
+							<option>0</option>
+							<option>1.5</option>
+							<option>1.6</option>
+							<option>1.67</option>
+							<option>1.74</option>
+						</select>
+					</div>
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "ИТОГО" readonly>
+					</div>
+					<div class = "form-group">
+						<button class = "btn btn-success" type = "submit">отправить</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<p></p>
+		<div class = "card" style = "width: 1000; text-align: center;">
+			<div id = "c2" class = "card-body">
+				<h5 class = "card-title">ЗАЯВКА НА КОРРЕКЦИЮ</h5>
+				<form action = "" width = "1000">
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "ФИО">
+					</div>
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "телефон">
+					</div>
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "Email">
+					</div>
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "номер заявки коррекции" readonly>
+					</div>
+					<div class = "form-group">
+						<input class = "form-control" placeholder = "домашний адрес(при самовывозе не заполнять)">
+					</div>
+					<div class = "form-group">
+						<button onclick="topFunction()" class = "btn btn-success" type = "submit">отправить</button>
+					</div>
+				</form>
+			</div>
+		</div>
+	<div class  ="container">
+	<center>
+		<p id = "c3" class = "h3" type = "text">Россия, ул. Купим_очки, 217/2 тел.:8-964-30-n9 сайт: L00k_optik.com</p>
+		<button onclick ="topFunction()" id = "up" class = "btn btn-primary btn-md" type  ="button">в начало</button>
+		</center>
+	</div>
+  </body>
+</html>
